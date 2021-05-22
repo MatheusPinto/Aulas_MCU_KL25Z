@@ -1,0 +1,6 @@
+16:09:45 **** Incremental Build of configuration Debug for project ADC_joystick_aula ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+
+16:09:45 Build Finished. 0 errors, 0 warnings. (took 113ms)
+

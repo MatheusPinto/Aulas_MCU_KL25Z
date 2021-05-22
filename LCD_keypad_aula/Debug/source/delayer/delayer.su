@@ -1,0 +1,6 @@
+delayer.c:8:6:delayer_Init	8	static
+delayer.c:25:29:delayer_Wait10Cycles	0	static
+delayer.c:48:29:delayer_Wait100Cycles	0	static
+delayer.c:79:6:delayer_WaitCycles	16	static
+delayer.c:104:6:delayer_WaitLongCycles	16	static
+delayer.c:127:6:delayer_Waitms	16	static

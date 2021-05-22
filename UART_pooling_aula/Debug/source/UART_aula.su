@@ -1,0 +1,4 @@
+fsl_clock.h:620:20:CLOCK_SetLpsci0Clock	16	static
+fsl_lpsci.h:502:20:LPSCI_WriteByte	16	static
+fsl_lpsci.h:516:23:LPSCI_ReadByte	16	static
+UART_aula.c:52:5:main	136	static

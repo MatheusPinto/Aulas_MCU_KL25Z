@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="450"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="506"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+		<list key="orderedElements">
+			<item value="search.in.help"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="search.help"/>
+		</list>
+		<list key="textEntries">
+			<item value="1"/>
+		</list>
+		<list key="textArray">
+			<item value="nmi"/>
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="651"/>
+		<item key="DIALOG_Y_ORIGIN" value="77"/>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\Motor_shield_aula.zip"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\TPM_ultrassonic_aula.zip"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\ADC_projetos_aula.zip"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\PWM_Servo_aula.zip"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\UART_interrupt_aula.zip"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\UART_pooling_aula.zip"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\TPM_PWM_Aula_v1.zip"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\TPM_PWM_Aula.zip"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\lala.zip"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\TPM_over_aula.zip"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\IRQ_externo.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+</section>

@@ -1,0 +1,29 @@
+11:13:54 **** Incremental Build of configuration Debug for project Bluetooth_ctrl_aula ****
+make -r -j4 all 
+Building file: ../source/delayer.c
+Building file: ../source/main.c
+Invoking: MCU C Compiler
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -D__REDLIB__ -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\board" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\source" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\drivers" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\CMSIS" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\utilities" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/delayer.d" -MT"source/delayer.o" -MT"source/delayer.d" -o "source/delayer.o" "../source/delayer.c"
+arm-none-eabi-gcc -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -D__REDLIB__ -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\board" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\source" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\drivers" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\CMSIS" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\utilities" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Bluetooth_ctrl_aula\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/main.d" -MT"source/main.o" -MT"source/main.d" -o "source/main.o" "../source/main.c"
+Finished building: ../source/delayer.c
+ 
+Finished building: ../source/main.c
+ 
+Building target: Bluetooth_ctrl_aula.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="Bluetooth_ctrl_aula.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MonsterMotor_aula_Debug.ld -o "Bluetooth_ctrl_aula.axf"  ./utilities/fsl_debug_console.o  ./startup/startup_mkl25z4.o  ./source/delayer.o ./source/main.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/bluetooth.o ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_flash.o ./drivers/fsl_gpio.o ./drivers/fsl_lpsci.o ./drivers/fsl_smc.o ./drivers/fsl_tpm.o ./drivers/fsl_uart.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./CMSIS/system_MKL25Z4.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       14696 B       128 KB     11.21%
+            SRAM:        2484 B        16 KB     15.16%
+Finished building target: Bluetooth_ctrl_aula.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "Bluetooth_ctrl_aula.axf"; # arm-none-eabi-objcopy -v -O binary "Bluetooth_ctrl_aula.axf" "Bluetooth_ctrl_aula.bin" ; # checksum -p MKL25Z128xxx4 -d "Bluetooth_ctrl_aula.bin";
+   text	   data	    bss	    dec	    hex	filename
+  14676	     20	   2464	  17160	   4308	Bluetooth_ctrl_aula.axf
+ 
+
+11:13:55 Build Finished. 0 errors, 0 warnings. (took 659ms)
+

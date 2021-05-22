@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;PWM_Servo_aula&apos; to &apos;PWM_Servo_aula_v2&apos;" description="Rename resource &apos;PWM_Servo_aula&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/PWM_Servo_aula" name="PWM_Servo_aula_v2" stamp="1610401351757" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;PWM_Servo_aula2&apos; to &apos;PWM_Servo_aula&apos;" description="Rename resource &apos;PWM_Servo_aula2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/PWM_Servo_aula2" name="PWM_Servo_aula" stamp="1610401367466" updateReferences="true"/>
+</session>

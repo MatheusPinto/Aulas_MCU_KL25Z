@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\projeto 2 temporizador"/>
+			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\projeto 2 temporizador"/>
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\GPIO_SDK_aula"/>
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\GPIO_aula"/>
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\UART_aula"/>
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\lcd_keypad_kl25z"/>
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\TPM_over_aula"/>
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\ADC_continuo_aula"/>
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\ADC_timer_aula"/>
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\ADC_interrupt_aula"/>
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\ADC_polling_aula"/>
+			<item value="C:\Users\mathe\OneDrive\Documentos\Workspaces\MCUXpresso\Aulas_MCU\PWM_Servo_aula"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="710"/>
+		<item key="DIALOG_Y_ORIGIN" value="209"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="467"/>
+		<item key="BUILD_NOW" value="true"/>
+		<item key="BUILD_ALL" value="true"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="657"/>
+		<item key="DIALOG_Y_ORIGIN" value="341"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

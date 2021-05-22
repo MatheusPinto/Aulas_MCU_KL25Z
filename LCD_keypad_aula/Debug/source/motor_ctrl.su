@@ -1,0 +1,4 @@
+fsl_clock.h:614:20:CLOCK_SetTpmClock	16	static
+fsl_gpio.h:157:20:GPIO_WritePinOutput	24	static
+fsl_tpm.h:579:20:TPM_StartTimer	24	static
+motor_ctrl.c:29:6:MotorCtrlTask	72	static

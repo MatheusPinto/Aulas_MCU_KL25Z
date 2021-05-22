@@ -1,0 +1,7 @@
+diff_robot.c:12:6:robot_Init	8	static
+diff_robot.c:19:6:robot_SendCmdVel	16	static
+diff_robot.c:25:6:robot_ReceiveCmdVel	16	static
+diff_robot.c:30:6:robot_SendObstacleDist	16	static
+diff_robot.c:35:6:robot_ReceiveObstacleDist	16	static
+diff_robot.c:40:6:robot_SendLineDir	16	static
+diff_robot.c:45:6:robot_ReceiveLineDir	16	static

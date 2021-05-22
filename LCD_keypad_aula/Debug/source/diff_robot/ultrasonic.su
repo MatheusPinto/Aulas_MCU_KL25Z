@@ -1,0 +1,10 @@
+core_cm0plus.h:745:22:NVIC_EnableIRQ	16	static
+fsl_clock.h:614:20:CLOCK_SetTpmClock	16	static
+fsl_gpio.h:157:20:GPIO_WritePinOutput	24	static
+fsl_tpm.h:518:20:TPM_ClearStatusFlags	16	static
+fsl_tpm.h:545:20:TPM_SetTimerPeriod	16	static
+fsl_tpm.h:579:20:TPM_StartTimer	24	static
+ultrasonic.c:34:6:TPM2_IRQHandler	8	static
+ultrasonic.c:50:6:ultrasonic_TaskCreate	24	static
+ultrasonic.c:61:13:UltrassonicTask	32	static
+ultrasonic.c:99:6:ultrasonic_Init	8	static

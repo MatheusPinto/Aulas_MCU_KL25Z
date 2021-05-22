@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ADC_continuo_aula/source/adc16_polling.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;adc16_polling.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="source/adc16_polling.c" name="main.c" stamp="1611526174932" updateReferences="true"/>
+</session>

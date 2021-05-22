@@ -1,0 +1,7 @@
+ExitOnError 1
+r
+h
+loadfile "C:\Users\Matheus_Pinto\Documents\MCUXpressoIDE_11.0.0_2516\aulas\lcd_keypad_kl25z\Debug\lcd_keypad_kl25z.hex"
+qc
+
+qc

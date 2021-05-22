@@ -1,0 +1,24 @@
+20:09:18 **** Incremental Build of configuration Debug for project ADC_polling_aula ****
+make -r -j4 all 
+Building file: ../source/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -DDEBUG -DCPU_MKL25Z128VLK4 -DFRDM_KL25Z -DFREEDOM -DCPU_MKL25Z128VLK4_cm0plus -DSDK_DEBUGCONSOLE=0 -DCR_INTEGER_PRINTF -D__MCUXPRESSO -D__USE_CMSIS -D__REDLIB__ -I../board -I../source -I../ -I../drivers -I../CMSIS -I../utilities -I../startup -O0 -fno-common -g -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/main.d" -MT"source/main.o" -MT"source/main.d" -o "source/main.o" "../source/main.c"
+Finished building: ../source/main.c
+ 
+Building target: ADC_polling_aula.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker --gc-sections -Xlinker -Map="ADC_polling_aula.map" -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T "ADC_polling_aula_Debug.ld" -o "ADC_polling_aula.axf"  ./utilities/fsl_debug_console.o  ./startup/startup_mkl25z4.o  ./source/main.o ./source/semihost_hardfault.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_flash.o ./drivers/fsl_gpio.o ./drivers/fsl_lpsci.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o  ./board/board.o ./board/clock_config.o ./board/pin_mux.o  ./CMSIS/system_MKL25Z4.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:       15304 B       128 KB     11.68%
+            SRAM:        2292 B        16 KB     13.99%
+Finished building target: ADC_polling_aula.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "ADC_polling_aula.axf"; # arm-none-eabi-objcopy -v -O binary "ADC_polling_aula.axf" "ADC_polling_aula.bin" ; # checksum -p MKL25Z128xxx4 -d "ADC_polling_aula.bin";
+   text	   data	    bss	    dec	    hex	filename
+  15296	      8	   2284	  17588	   44b4	ADC_polling_aula.axf
+ 
+
+20:09:18 Build Finished. 0 errors, 0 warnings. (took 522ms)
+

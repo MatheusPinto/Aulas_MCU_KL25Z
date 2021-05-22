@@ -1,0 +1,4 @@
+#Tue Feb 16 17:32:22 BRST 2021
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=nmi

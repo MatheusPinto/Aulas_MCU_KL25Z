@@ -1,0 +1,6 @@
+20:41:34 **** Incremental Build of configuration Debug for project Bluetooth_aula ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+
+20:41:34 Build Finished. 0 errors, 0 warnings. (took 105ms)
+

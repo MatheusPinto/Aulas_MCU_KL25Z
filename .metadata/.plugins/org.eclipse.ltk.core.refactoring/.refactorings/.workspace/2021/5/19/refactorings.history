@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;TPM_ultrassonic_motor_aula&apos;" deleteContents="true" description="Delete resource &apos;TPM_ultrassonic_motor_aula&apos;" element1="/TPM_ultrassonic_motor_aula" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1620048468126"/>
+</session>

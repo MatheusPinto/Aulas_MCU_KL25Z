@@ -1,0 +1,3 @@
+line_sensor.c:19:6:lineDetect_Init	8	static
+line_sensor.c:24:6:lineDetect_TaskCreate	24	static
+line_sensor.c:35:13:LineDetectTask	24	static

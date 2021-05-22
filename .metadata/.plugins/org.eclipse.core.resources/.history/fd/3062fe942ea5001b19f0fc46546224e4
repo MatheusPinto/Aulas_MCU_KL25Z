@@ -1,0 +1,127 @@
+/*
+ * Copyright 2016-2021 NXP
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification,
+ * are permitted provided that the following conditions are met:
+ *
+ * o Redistributions of source code must retain the above copyright notice, this list
+ *   of conditions and the following disclaimer.
+ *
+ * o Redistributions in binary form must reproduce the above copyright notice, this
+ *   list of conditions and the following disclaimer in the documentation and/or
+ *   other materials provided with the distribution.
+ *
+ * o Neither the name of NXP Semiconductor, Inc. nor the names of its
+ *   contributors may be used to endorse or promote products derived from this
+ *   software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+ 
+/**
+ * @file    Motor_shield_aula.c
+ * @brief   Application entry point.
+ */
+#include <stdio.h>
+#include "board.h"
+#include "peripherals.h"
+#include "pin_mux.h"
+#include "clock_config.h"
+#include "MKL25Z4.h"
+#include "fsl_debug_console.h"
+/* TODO: insert other include files here. */
+#include "fsl_port.h"
+#include "fsl_gpio.h"
+#include "fsl_tpm.h"
+#include "delayer.h"
+
+/* TODO: insert other definitions and declarations here. */
+
+/*
+ * @brief   Application entry point.
+ */
+int main(void) {
+
+
+	tpm_config_t tpm_pwm_config;
+	tpm_chnl_pwm_signal_param_t motors_pwm_chnls_param[]  =	{{.chnlNumber 		= kTPM_Chnl_2,
+												 	 	 	  .level 	 		= kTPM_HighTrue,
+															  .dutyCyclePercent 	= 0},
+
+													 	 	 {.chnlNumber 		= kTPM_Chnl_4,
+													 	 	  .level 	 		= kTPM_HighTrue,
+															  .dutyCyclePercent = 0}};
+	int currentDutyCycle = 0;
+
+  	/* Init board hardware. */
+    BOARD_InitBootPins();
+    BOARD_InitBootClocks();
+    BOARD_InitBootPeripherals();
+#ifndef BOARD_INIT_DEBUG_CONSOLE_PERIPHERAL
+    /* Init FSL debug console. */
+    BOARD_InitDebugConsole();
+#endif
+
+    GPIO_SetPinsOutput(INA1_MOTOR_GPIO, INA1_MOTOR_PIN_MASK);
+    GPIO_ClearPinsOutput(INB1_MOTOR_GPIO, INB1_MOTOR_PIN_MASK);
+    GPIO_SetPinsOutput(INA2_MOTOR_GPIO, INA2_MOTOR_PIN_MASK);
+    GPIO_ClearPinsOutput(INB2_MOTOR_GPIO, INB2_MOTOR_PIN_MASK);
+
+    TPM_GetDefaultConfig(&tpm_pwm_config);
+    tpm_pwm_config.prescale = kTPM_Prescale_Divide_128;
+
+    TPM_Init (TPM0, &tpm_pwm_config);
+    CLOCK_SetTpmClock(1);
+
+    TPM_SetupPwm(TPM0,
+    			 motors_pwm_chnls_param,
+       		     2,
+     		     kTPM_EdgeAlignedPwm,
+     		     200,
+     		     CLOCK_GetPllFllSelClkFreq());
+
+    TPM_StartTimer(TPM0, kTPM_SystemClock);
+
+    int dir = 0;
+    for(;;)
+    {
+    	currentDutyCycle++;
+    	if(currentDutyCycle > 100)
+    	{
+    		currentDutyCycle = 0;
+
+    		if(dir == 0)
+    		{
+        	    GPIO_ClearPinsOutput(INA1_MOTOR_GPIO, INA1_MOTOR_PIN_MASK);
+        	    GPIO_SetPinsOutput(INB1_MOTOR_GPIO, INB1_MOTOR_PIN_MASK);
+        	    GPIO_ClearPinsOutput(INA2_MOTOR_GPIO, INA2_MOTOR_PIN_MASK);
+        	    GPIO_SetPinsOutput(INB2_MOTOR_GPIO, INB2_MOTOR_PIN_MASK);
+        	    dir = 1;
+    		}
+    		else
+    		{
+    			GPIO_SetPinsOutput(INA1_MOTOR_GPIO, INA1_MOTOR_PIN_MASK);
+    			GPIO_ClearPinsOutput(INB1_MOTOR_GPIO, INB1_MOTOR_PIN_MASK);
+    			GPIO_SetPinsOutput(INA2_MOTOR_GPIO, INA2_MOTOR_PIN_MASK);
+    			GPIO_ClearPinsOutput(INB2_MOTOR_GPIO, INB2_MOTOR_PIN_MASK);
+    			dir = 0;
+    		}
+    	}
+
+    	TPM_UpdatePwmDutycycle(TPM0, kTPM_Chnl_2, kTPM_EdgeAlignedPwm, currentDutyCycle);
+    	TPM_UpdatePwmDutycycle(TPM0, kTPM_Chnl_4, kTPM_EdgeAlignedPwm, currentDutyCycle);
+    	delayer_Waitms(100);
+    }
+
+    return 0 ;
+}

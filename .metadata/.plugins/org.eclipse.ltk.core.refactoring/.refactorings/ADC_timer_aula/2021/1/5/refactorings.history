@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ADC_timer_aula/source/ADC_timer_aula.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;ADC_timer_aula.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="source/ADC_timer_aula.c" name="main.c" stamp="1611526947558" updateReferences="true"/>
+</session>

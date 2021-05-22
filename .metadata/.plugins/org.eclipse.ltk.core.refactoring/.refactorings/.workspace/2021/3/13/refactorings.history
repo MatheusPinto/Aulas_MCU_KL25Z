@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;UART_driver_examples_uart_interrupt&apos; to &apos;UART_interrupt_aula&apos;" description="Rename resource &apos;UART_driver_examples_uart_interrupt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/UART_driver_examples_uart_interrupt" name="UART_interrupt_aula" stamp="1616607106222" updateReferences="true"/>
+</session>

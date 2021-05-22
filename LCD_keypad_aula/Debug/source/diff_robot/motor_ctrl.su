@@ -1,0 +1,12 @@
+fsl_clock.h:614:20:CLOCK_SetTpmClock	16	static
+fsl_gpio.h:157:20:GPIO_WritePinOutput	24	static
+fsl_tpm.h:579:20:TPM_StartTimer	24	static
+fsl_port.h:407:24:PORT_GetPinsInterruptFlags	16	static
+fsl_port.h:418:20:PORT_ClearPinsInterruptFlags	16	static
+motor_ctrl.c:48:6:PORTD_IRQHandler	16	static
+motor_ctrl.c:69:6:motor_Init	16	static
+motor_ctrl.c:101:6:motor_CtrlTaskCreate	24	static
+motor_ctrl.c:110:6:motor_OdomTaskCreate	24	static
+motor_ctrl.c:119:7:motor_GetLastDistance	16	static
+motor_ctrl.c:128:6:MotorCtrlTask	64	static
+motor_ctrl.c:201:6:MotorGetOdometryTask	64	static

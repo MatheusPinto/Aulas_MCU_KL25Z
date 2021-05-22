@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PWM_Servo_aula_v2/source/PWM_Servo_aula.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;PWM_Servo_aula.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="source/PWM_Servo_aula.c" name="main.c" stamp="1611580291121" updateReferences="true"/>
+</session>

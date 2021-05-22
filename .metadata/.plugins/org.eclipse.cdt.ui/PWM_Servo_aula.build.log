@@ -1,0 +1,6 @@
+19:45:49 **** Incremental Build of configuration Debug for project PWM_Servo_aula ****
+make -r -j4 all 
+make: Nothing to be done for 'all'.
+
+19:45:49 Build Finished. 0 errors, 0 warnings. (took 110ms)
+

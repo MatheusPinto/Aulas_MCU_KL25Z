@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;TPM_ultrassonic_aula&apos;" deleteContents="true" description="Delete resource &apos;TPM_ultrassonic_aula&apos;" element1="/TPM_ultrassonic_aula" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1618954408215"/>&#x0A;<refactoring comment="Delete resource &apos;frdmkl25z_driver_examples_tpm_input_capture&apos;" deleteContents="true" description="Delete resource &apos;frdmkl25z_driver_examples_tpm_input_capture&apos;" element1="/frdmkl25z_driver_examples_tpm_input_capture" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1619130634444"/>
+</session>
