@@ -43,7 +43,7 @@
 #include "fsl_tpm.h"
 #include "fsl_adc16.h"
 #include "stdbool.h"
-#include "delayer/delayer.h"
+#include "delay.h"
 
 /* TODO: insert other definitions and declarations here. */
 #define ADC_GROUP_A 0U
@@ -72,6 +72,8 @@ int main(void) {
     BOARD_InitBootPeripherals();
     /* Init FSL debug console. */
     BOARD_InitDebugConsole();
+
+    Delay_Init();
 
     /* Resultados da conversão serão impressos em console de depuração. */
     PRINTF("\r\nADC16 four channels Example.\r\n");
@@ -111,7 +113,7 @@ int main(void) {
     		axis = 'Y';
     	}
     	PRINTF("\n");
-    	delayer_Waitms(300);
+    	Delay_Waitms(300);
     }
 
     return 0 ;

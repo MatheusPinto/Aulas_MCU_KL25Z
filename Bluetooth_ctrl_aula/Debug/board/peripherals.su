@@ -1,5 +1,0 @@
-fsl_clock.h:614:20:CLOCK_SetTpmClock	16	static
-fsl_tpm.h:579:20:TPM_StartTimer	24	static
-fsl_gpio.h:175:20:GPIO_SetPinsOutput	16	static
-fsl_gpio.h:186:20:GPIO_ClearPinsOutput	16	static
-peripherals.c:59:6:BOARD_InitBootPeripherals	16	static

@@ -41,7 +41,7 @@
 #include "fsl_debug_console.h"
 #include "fsl_tpm.h"
 /* TODO: insert other include files here. */
-#include "delayer.h"
+#include "delay.h"
 
 /* TODO: insert other definitions and declarations here. */
 
@@ -62,6 +62,8 @@ int main(void) {
     BOARD_InitBootClocks();
     BOARD_InitBootPeripherals();
 
+    Delay_Init();
+
     TPM_GetDefaultConfig(&tpm2_config);
     tpm2_config.prescale = kTPM_Prescale_Divide_128;
 
@@ -80,7 +82,7 @@ int main(void) {
     for(;;)
     {
         /* Delays to see the change of LED brightness. */
-        delayer_Waitms(20);
+        Delay_Waitms(20);
         if (brightnessUp)
         {
             /* Increases a duty cycle until it reaches a limited value. */

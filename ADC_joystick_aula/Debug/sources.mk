@@ -17,7 +17,6 @@ SUBDIRS := \
 CMSIS \
 board \
 drivers \
-source/delayer \
 source \
 startup \
 utilities \

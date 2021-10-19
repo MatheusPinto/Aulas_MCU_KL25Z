@@ -18,7 +18,6 @@ CMSIS \
 board \
 drivers \
 source \
-source/delayer \
 startup \
 utilities \
 

@@ -1,0 +1,5 @@
+delay.c:121:6:Delay_Init	8	static
+delay.c:148:6:Wait10Cycles	0	static
+delay.c:189:6:Wait100Cycles	0	static
+delay.c:228:6:Delay_WaitCycles	16	static
+delay.c:270:6:Delay_Waitms	16	static

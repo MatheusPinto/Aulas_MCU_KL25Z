@@ -1,6 +1,24 @@
-19:45:49 **** Incremental Build of configuration Debug for project PWM_Servo_aula ****
+20:25:26 **** Incremental Build of configuration Debug for project PWM_Servo_aula ****
 make -r -j4 all 
-make: Nothing to be done for 'all'.
+Building file: ../source/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DPRINTF_FLOAT_ENABLE=0 -D__USE_CMSIS -DCR_INTEGER_PRINTF -DSDK_DEBUGCONSOLE=1 -D__MCUXPRESSO -DDEBUG -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\PWM_Servo_aula\board" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\PWM_Servo_aula\source" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\PWM_Servo_aula" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\PWM_Servo_aula\drivers" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\PWM_Servo_aula\utilities" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\PWM_Servo_aula\startup" -I"C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\PWM_Servo_aula\CMSIS" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m0plus -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/main.d" -MT"source/main.o" -MT"source/main.d" -o "source/main.o" "../source/main.c"
+Finished building: ../source/main.c
+ 
+Building target: PWM_Servo_aula.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -print-memory-usage -Xlinker --gc-sections -Xlinker -Map="PWM_Servo_aula.map" -mcpu=cortex-m0plus -mthumb -T "PWM_Servo_aula_Debug.ld" -o "PWM_Servo_aula.axf"  ./utilities/fsl_debug_console.o  ./startup/startup_mkl25z4.o  ./source/delay.o ./source/main.o ./source/mtb.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_flash.o ./drivers/fsl_gpio.o ./drivers/fsl_lpsci.o ./drivers/fsl_smc.o ./drivers/fsl_tpm.o ./drivers/fsl_uart.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./CMSIS/system_MKL25Z4.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        8860 B       128 KB      6.76%
+            SRAM:        2428 B        16 KB     14.82%
+Finished building target: PWM_Servo_aula.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "PWM_Servo_aula.axf"; # arm-none-eabi-objcopy -v -O binary "PWM_Servo_aula.axf" "PWM_Servo_aula.bin" ; # checksum -p MKL25Z128xxx4 -d "PWM_Servo_aula.bin";
+   text	   data	    bss	    dec	    hex	filename
+   8848	     12	   2416	  11276	   2c0c	PWM_Servo_aula.axf
+ 
 
-19:45:49 Build Finished. 0 errors, 0 warnings. (took 110ms)
+20:25:26 Build Finished. 0 errors, 0 warnings. (took 758ms)
 

@@ -49,7 +49,6 @@ post-build:
 	-arm-none-eabi-size "GPIO_aula.axf"; # arm-none-eabi-objcopy -v -O binary "GPIO_aula.axf" "GPIO_aula.bin" ; # checksum -p MKL25Z128xxx4 -d "GPIO_aula.bin";
 	-@echo ' '
 
-.PHONY: all clean dependents
-.SECONDARY: post-build
+.PHONY: all clean dependents post-build
 
 -include ../makefile.targets

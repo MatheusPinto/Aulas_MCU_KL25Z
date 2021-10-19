@@ -1,3 +1,7 @@
+configNamePerspectiveMap_C\:\\Users\\mathe\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\LCD_keypad_aula\\lcd_keypad_kl25z.mex=com.nxp.swtools.mux.perspective
+configNamePerspectiveMap_C\:\\Users\\mathe\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\Motor_shield_aula\\MonsterMotor_aula.mex=com.nxp.swtools.mux.perspective
+configNamePerspectiveMap_C\:\\Users\\mathe\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\Robot_full_ctrl\\MonsterMotor_aula.mex=com.nxp.swtools.mux.perspective
+configNamePerspectiveMap_C\:\\Users\\mathe\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\WDOG_aula\\WDOG_aula.mex=com.nxp.swtools.mux.perspective
 configNamePerspectiveMap_C\:\\Users\\mathe\\OneDrive\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\ADC_canais_aula2\\ADC_timer_aula.mex=com.nxp.mcuxpresso.swo.ui.perspective.MCXDevelopPerspective
 configNamePerspectiveMap_C\:\\Users\\mathe\\OneDrive\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\ADC_canais_aula\\ADC_timer_aula.mex=com.nxp.mcuxpresso.swo.ui.perspective.MCXDevelopPerspective
 configNamePerspectiveMap_C\:\\Users\\mathe\\OneDrive\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\ADC_continuo_aula\\frdmkl25z_driver_examples_adc16_polling.mex=com.nxp.swtools.mux.perspective
@@ -18,4 +22,8 @@ configNamePerspectiveMap_C\:\\Users\\mathe\\OneDrive\\Documentos\\Workspaces\\MC
 configNamePerspectiveMap_C\:\\Users\\mathe\\OneDrive\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\lcd_keypad_kl25z\\rt_robot.mex=com.nxp.swtools.mux.perspective
 configNamePerspectiveMap_C\:\\Users\\mathe\\OneDrive\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\teste\\teste.mex=com.nxp.swtools.mux.perspective
 eclipse.preferences.version=1
-saveLastFolderPath=C\:\\Users\\mathe\\OneDrive\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\Bluetooth_aula
+recentConfigFileName_0=C\:\\Users\\mathe\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\LCD_keypad_aula\\lcd_keypad_kl25z.mex
+recentConfigFileName_1=C\:\\Users\\mathe\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\PWM_Servo_aula_v2\\TPM_over_aula.mex
+recentConfigFileName_2=C\:\\Users\\mathe\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\WDOG_aula\\WDOG_aula.mex
+recentConfigFileName_3=C\:\\Users\\mathe\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\TPM_ultrassonic_aula\\TPM_ultrassonic_aula.mex
+saveLastFolderPath=C\:\\Users\\mathe\\Documentos\\Workspaces\\MCUXpresso\\Aulas_MCU\\LCD_keypad_aula

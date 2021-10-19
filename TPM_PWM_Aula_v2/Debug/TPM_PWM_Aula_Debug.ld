@@ -5,8 +5,8 @@
  * (c) NXP Semiconductors 2013-2021
  * Generated linker script file for MKL25Z128xxx4
  * Created from linkscript.ldt by FMCreateLinkLibraries
- * Using Freemarker v2.3.23
- * MCUXpresso IDE v11.2.1 [Build 4149] [2020-10-07] on 12/03/2021 16:23:36
+ * Using Freemarker v2.3.30
+ * MCUXpresso IDE v11.3.0 [Build 5222] [2021-01-11] on 19/10/2021 15:17:05
  */
 
 INCLUDE "TPM_PWM_Aula_Debug_library.ld"

@@ -412,6 +412,40 @@
 						<entry kind="macro" name="__REDLIB__" value="1"/>
 						<entry kind="macro" name="__USE_CMSIS" value="1"/>
 					</resource>
+					<resource project-relative-path="source/main.c">
+						<entry kind="includePath" name="/${ProjName}/board">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VLK4" value="1"/>
+						<entry kind="macro" name="CPU_MKL25Z128VLK4_cm0plus" value="1"/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value="1"/>
+						<entry kind="macro" name="DEBUG" value="1"/>
+						<entry kind="macro" name="FSL_RTOS_BM" value="1"/>
+						<entry kind="macro" name="PRINTF_FLOAT_ENABLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_OS_BAREMETAL" value="1"/>
+						<entry kind="macro" name="__MCUXPRESSO" value="1"/>
+						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__USE_CMSIS" value="1"/>
+					</resource>
 					<resource project-relative-path="drivers/fsl_uart.c">
 						<entry kind="includePath" name="/${ProjName}/board">
 							<flag value="VALUE_WORKSPACE_PATH"/>
@@ -583,6 +617,40 @@
 						<entry kind="macro" name="__USE_CMSIS" value="1"/>
 					</resource>
 					<resource project-relative-path="drivers/fsl_flash.c">
+						<entry kind="includePath" name="/${ProjName}/board">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/source">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/startup">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/CMSIS">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/drivers">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="includePath" name="/${ProjName}/utilities">
+							<flag value="VALUE_WORKSPACE_PATH"/>
+						</entry>
+						<entry kind="macro" name="CPU_MKL25Z128VLK4" value="1"/>
+						<entry kind="macro" name="CPU_MKL25Z128VLK4_cm0plus" value="1"/>
+						<entry kind="macro" name="CR_INTEGER_PRINTF" value="1"/>
+						<entry kind="macro" name="DEBUG" value="1"/>
+						<entry kind="macro" name="FSL_RTOS_BM" value="1"/>
+						<entry kind="macro" name="PRINTF_FLOAT_ENABLE" value="0"/>
+						<entry kind="macro" name="SDK_DEBUGCONSOLE" value="0"/>
+						<entry kind="macro" name="SDK_OS_BAREMETAL" value="1"/>
+						<entry kind="macro" name="__MCUXPRESSO" value="1"/>
+						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__USE_CMSIS" value="1"/>
+					</resource>
+					<resource project-relative-path="source/delay.c">
 						<entry kind="includePath" name="/${ProjName}/board">
 							<flag value="VALUE_WORKSPACE_PATH"/>
 						</entry>

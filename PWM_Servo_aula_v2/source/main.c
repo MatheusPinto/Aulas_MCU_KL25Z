@@ -40,7 +40,7 @@
 #include "MKL25Z4.h"
 #include "fsl_debug_console.h"
 #include "fsl_tpm.h"
-#include "delayer/delayer.h"
+#include "delay.h"
 /* TODO: insert other include files here. */
 //#define SET_TO_ZERO_DEGREE
 
@@ -66,6 +66,8 @@ int main(void) {
     BOARD_InitBootPins();
     BOARD_InitBootClocks();
     BOARD_InitBootPeripherals();
+
+    Delay_Init();
 
     TPM_GetDefaultConfig(&tpm2_config);
     tpm2_config.prescale = kTPM_Prescale_Divide_128;
@@ -100,7 +102,7 @@ int main(void) {
     	{
     		currentDutyCycle += 100;
     		TPM_UpdatePwmDutycycle(TPM2, kTPM_Chnl_0, kTPM_EdgeAlignedPwm, currentDutyCycle);
-    		delayer_Waitms(20);
+    		Delay_Waitms(20);
     	}
 
     	/* Servo irá iniciar no ângulo máximo de +90 graus.
@@ -111,7 +113,7 @@ int main(void) {
     	{
     		currentDutyCycle -= 100;
      		TPM_UpdatePwmDutycycle(TPM2, kTPM_Chnl_0, kTPM_EdgeAlignedPwm, currentDutyCycle);
-     		delayer_Waitms(20);
+     		Delay_Waitms(20);
         }
 #else
 

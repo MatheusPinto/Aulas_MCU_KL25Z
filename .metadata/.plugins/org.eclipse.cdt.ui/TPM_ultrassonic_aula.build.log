@@ -1,6 +1,6 @@
-15:50:34 **** Incremental Build of configuration Debug for project TPM_ultrassonic_aula ****
+15:17:30 **** Incremental Build of configuration Debug for project TPM_ultrassonic_aula ****
 make -r -j4 all 
 make: Nothing to be done for 'all'.
 
-15:50:34 Build Finished. 0 errors, 0 warnings. (took 102ms)
+15:17:30 Build Finished. 0 errors, 0 warnings. (took 101ms)
 

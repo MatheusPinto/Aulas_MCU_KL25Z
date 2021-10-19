@@ -40,7 +40,7 @@
 #include "MKL25Z4.h"
 #include "fsl_debug_console.h"
 #include "fsl_tpm.h"
-#include "delayer/delayer.h"
+#include "delay.h"
 /* TODO: insert other include files here. */
 
 /* TODO: insert other definitions and declarations here. */
@@ -62,6 +62,8 @@ int main(void) {
     BOARD_InitBootPins();
     BOARD_InitBootClocks();
     BOARD_InitBootPeripherals();
+
+    Delay_Init();
 
     TPM_GetDefaultConfig(&tpm2_config);
     tpm2_config.prescale = kTPM_Prescale_Divide_128;
@@ -85,14 +87,14 @@ int main(void) {
     	{
     		++currentDutyCycle;
     		TPM_UpdatePwmDutycycle(TPM2, kTPM_Chnl_0, kTPM_EdgeAlignedPwm, currentDutyCycle);
-    		delayer_Waitms(200);
+    		Delay_Waitms(200);
     	}
 
     	while(currentDutyCycle > 3)
     	{
     		--currentDutyCycle;
      		TPM_UpdatePwmDutycycle(TPM2, kTPM_Chnl_0, kTPM_EdgeAlignedPwm, currentDutyCycle);
-     		delayer_Waitms(200);
+     		Delay_Waitms(200);
         }
     }
 

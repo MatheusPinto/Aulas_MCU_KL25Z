@@ -5,8 +5,8 @@
  * (c) NXP Semiconductors 2013-2021
  * Generated linker script file for MKL25Z128xxx4
  * Created from memory.ldt by FMCreateLinkMemory
- * Using Freemarker v2.3.23
- * MCUXpresso IDE v11.2.1 [Build 4149] [2020-10-07] on 11/01/2021 19:45:49
+ * Using Freemarker v2.3.30
+ * MCUXpresso IDE v11.3.0 [Build 5222] [2021-01-11] on 18/10/2021 20:25:26
  */
 
 MEMORY

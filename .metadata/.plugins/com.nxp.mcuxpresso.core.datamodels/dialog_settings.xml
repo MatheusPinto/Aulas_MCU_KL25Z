@@ -5,4 +5,9 @@
 		<item key="Sash.Weight.Summary" value="285"/>
 		<item key="Summary.visible" value="true"/>
 	</section>
+	<section name="com.nxp.mcuxpresso.core.datamodels.ui.widgets.ComponentsDialog">
+		<item key="Sash.Weight.Components" value="714"/>
+		<item key="Sash.Weight.Summary" value="285"/>
+		<item key="Summary.visible" value="true"/>
+	</section>
 </section>

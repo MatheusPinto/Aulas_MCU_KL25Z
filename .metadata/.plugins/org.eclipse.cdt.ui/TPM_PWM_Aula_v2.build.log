@@ -1,6 +1,19 @@
-16:23:36 **** Incremental Build of configuration Debug for project TPM_PWM_Aula_v2 ****
+15:17:06 **** Incremental Build of configuration Debug for project TPM_PWM_Aula_v2 ****
 make -r -j4 all 
-make: Nothing to be done for 'all'.
+Building target: TPM_PWM_Aula_v2.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -Map="TPM_PWM_Aula_v2.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T TPM_PWM_Aula_Debug.ld -o "TPM_PWM_Aula_v2.axf"  ./utilities/fsl_debug_console.o  ./startup/startup_mkl25z4.o  ./source/delay.o ./source/main.o ./source/mtb.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_flash.o ./drivers/fsl_gpio.o ./drivers/fsl_lpsci.o ./drivers/fsl_smc.o ./drivers/fsl_tpm.o ./drivers/fsl_uart.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./CMSIS/system_MKL25Z4.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:        8320 B       128 KB      6.35%
+            SRAM:        2420 B        16 KB     14.77%
+Finished building target: TPM_PWM_Aula_v2.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "TPM_PWM_Aula_v2.axf"; # arm-none-eabi-objcopy -v -O binary "TPM_PWM_Aula_v2.axf" "TPM_PWM_Aula_v2.bin" ; # checksum -p MKL25Z128xxx4 -d "TPM_PWM_Aula_v2.bin";
+   text	   data	    bss	    dec	    hex	filename
+   8308	     12	   2408	  10728	   29e8	TPM_PWM_Aula_v2.axf
+ 
 
-16:23:37 Build Finished. 0 errors, 0 warnings. (took 110ms)
+15:17:06 Build Finished. 0 errors, 0 warnings. (took 503ms)
 
