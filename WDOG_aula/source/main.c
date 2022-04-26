@@ -101,7 +101,7 @@ int main(void)
      * */
 
     /*
-     * configCop.enableWindowMode = false;           --> Nunca usei essa opção!
+     * configCop.enableWindowMode = false;           --> Nessa opção, o WDOG deve ser ressetado apenas no ultimo 1/4 de tempo do período. Caso  ressetado antes, sistema será reiniciado!
      * configCop.timeoutMode = kCOP_LongTimeoutMode; --> Não sei porque tem essa opção já que definimos o período pelos clocks e ciclos...
      * configCop.enableStop = false;
      * configCop.enableDebug = false;
@@ -119,7 +119,7 @@ int main(void)
     /* Verifica se o WDOG ressetou o MCU na última vez. */
     if (RCM_GetPreviousResetSources(RCM) & kRCM_SourceWdog)
     {
-        PRINTF("Reset due to COP timeout\r\n");
+        PRINTF("Reset devido ao timeout do WDOG\r\n");
     }
 
     PRINTF("\r\nExemplo WDOG aula!\r\n");

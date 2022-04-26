@@ -66,7 +66,7 @@ const uint8_t myChar[] =
  * deixe comentado as macros dos outros exemplos.
  *
  * */
-//#define EXEMPLO_1
+#define EXEMPLO_1
 //#define EXEMPLO_2
 //#define EXEMPLO_3
 //#define EXEMPLO_4

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.crt.advproject.config.exe.debug.746559801/COMM/delimiter=;
+environment/project/com.crt.advproject.config.exe.debug.746559801/COMM/operation=append
+environment/project/com.crt.advproject.config.exe.debug.746559801/COMM/value="${workspace_loc\:/Common}"
+environment/project/com.crt.advproject.config.exe.debug.746559801/append=true
+environment/project/com.crt.advproject.config.exe.debug.746559801/appendContributed=true

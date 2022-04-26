@@ -110,49 +110,49 @@ Discarded input sections
  .data          0x00000000        0x0 ./startup/startup_mkl25z4.o
  .bss           0x00000000        0x0 ./startup/startup_mkl25z4.o
  .debug_macro   0x00000000      0xab4 ./startup/startup_mkl25z4.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .group         0x00000000        0xc ./source/GPIO_aula.o
- .text          0x00000000        0x0 ./source/GPIO_aula.o
- .data          0x00000000        0x0 ./source/GPIO_aula.o
- .bss           0x00000000        0x0 ./source/GPIO_aula.o
- .bss.x         0x00000000        0x4 ./source/GPIO_aula.o
- .debug_macro   0x00000000      0xab4 ./source/GPIO_aula.o
- .debug_macro   0x00000000       0x10 ./source/GPIO_aula.o
- .debug_macro   0x00000000      0x12e ./source/GPIO_aula.o
- .debug_macro   0x00000000       0x16 ./source/GPIO_aula.o
- .debug_macro   0x00000000       0x22 ./source/GPIO_aula.o
- .debug_macro   0x00000000      0x5b3 ./source/GPIO_aula.o
- .debug_macro   0x00000000       0x10 ./source/GPIO_aula.o
- .debug_macro   0x00000000       0x3f ./source/GPIO_aula.o
- .debug_macro   0x00000000       0x3a ./source/GPIO_aula.o
- .debug_macro   0x00000000       0x26 ./source/GPIO_aula.o
- .debug_macro   0x00000000      0x329 ./source/GPIO_aula.o
- .debug_macro   0x00000000       0x30 ./source/GPIO_aula.o
- .debug_macro   0x00000000     0x51e2 ./source/GPIO_aula.o
- .debug_macro   0x00000000     0x1352 ./source/GPIO_aula.o
- .debug_macro   0x00000000       0x3a ./source/GPIO_aula.o
- .debug_macro   0x00000000       0xf4 ./source/GPIO_aula.o
- .debug_macro   0x00000000       0x35 ./source/GPIO_aula.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .group         0x00000000        0xc ./source/main.o
+ .text          0x00000000        0x0 ./source/main.o
+ .data          0x00000000        0x0 ./source/main.o
+ .bss           0x00000000        0x0 ./source/main.o
+ .bss.x         0x00000000        0x4 ./source/main.o
+ .debug_macro   0x00000000      0xab4 ./source/main.o
+ .debug_macro   0x00000000       0x10 ./source/main.o
+ .debug_macro   0x00000000      0x12e ./source/main.o
+ .debug_macro   0x00000000       0x16 ./source/main.o
+ .debug_macro   0x00000000       0x22 ./source/main.o
+ .debug_macro   0x00000000      0x5b3 ./source/main.o
+ .debug_macro   0x00000000       0x10 ./source/main.o
+ .debug_macro   0x00000000       0x3f ./source/main.o
+ .debug_macro   0x00000000       0x3a ./source/main.o
+ .debug_macro   0x00000000       0x26 ./source/main.o
+ .debug_macro   0x00000000      0x329 ./source/main.o
+ .debug_macro   0x00000000       0x30 ./source/main.o
+ .debug_macro   0x00000000     0x51e2 ./source/main.o
+ .debug_macro   0x00000000     0x1352 ./source/main.o
+ .debug_macro   0x00000000       0x3a ./source/main.o
+ .debug_macro   0x00000000       0xf4 ./source/main.o
+ .debug_macro   0x00000000       0x35 ./source/main.o
  .group         0x00000000        0xc ./source/mtb.o
  .group         0x00000000        0xc ./source/mtb.o
  .group         0x00000000        0xc ./source/mtb.o
@@ -1189,7 +1189,7 @@ Linker script and memory map
 
 LOAD ./utilities/fsl_debug_console.o
 LOAD ./startup/startup_mkl25z4.o
-LOAD ./source/GPIO_aula.o
+LOAD ./source/main.o
 LOAD ./source/mtb.o
 LOAD ./source/semihost_hardfault.o
 LOAD ./drivers/fsl_clock.o
@@ -1337,7 +1337,7 @@ END GROUP
  .text.DbgConsole_Init
                 0x00000510       0xf4 ./utilities/fsl_debug_console.o
                 0x00000510                DbgConsole_Init
- .text.main     0x00000604       0x4c ./source/GPIO_aula.o
+ .text.main     0x00000604       0x4c ./source/main.o
                 0x00000604                main
  .text.HardFault_Handler
                 0x00000650       0x2c ./source/semihost_hardfault.o
@@ -1779,7 +1779,7 @@ LOAD linker stubs
 .debug_info     0x00000000     0x7664
  .debug_info    0x00000000      0x9b5 ./utilities/fsl_debug_console.o
  .debug_info    0x000009b5      0x4df ./startup/startup_mkl25z4.o
- .debug_info    0x00000e94      0x716 ./source/GPIO_aula.o
+ .debug_info    0x00000e94      0x716 ./source/main.o
  .debug_info    0x000015aa       0x53 ./source/mtb.o
  .debug_info    0x000015fd       0x3c ./source/semihost_hardfault.o
  .debug_info    0x00001639     0x1a97 ./drivers/fsl_clock.o
@@ -1794,7 +1794,7 @@ LOAD linker stubs
 .debug_abbrev   0x00000000     0x163a
  .debug_abbrev  0x00000000      0x21b ./utilities/fsl_debug_console.o
  .debug_abbrev  0x0000021b      0x18d ./startup/startup_mkl25z4.o
- .debug_abbrev  0x000003a8      0x186 ./source/GPIO_aula.o
+ .debug_abbrev  0x000003a8      0x186 ./source/main.o
  .debug_abbrev  0x0000052e       0x46 ./source/mtb.o
  .debug_abbrev  0x00000574       0x31 ./source/semihost_hardfault.o
  .debug_abbrev  0x000005a5      0x36f ./drivers/fsl_clock.o
@@ -1812,7 +1812,7 @@ LOAD linker stubs
  .debug_aranges
                 0x00000048      0x160 ./startup/startup_mkl25z4.o
  .debug_aranges
-                0x000001a8       0x20 ./source/GPIO_aula.o
+                0x000001a8       0x20 ./source/main.o
  .debug_aranges
                 0x000001c8       0x18 ./source/mtb.o
  .debug_aranges
@@ -1837,7 +1837,7 @@ LOAD linker stubs
 .debug_ranges   0x00000000      0x648
  .debug_ranges  0x00000000       0x38 ./utilities/fsl_debug_console.o
  .debug_ranges  0x00000038      0x150 ./startup/startup_mkl25z4.o
- .debug_ranges  0x00000188       0x10 ./source/GPIO_aula.o
+ .debug_ranges  0x00000188       0x10 ./source/main.o
  .debug_ranges  0x00000198       0x10 ./source/semihost_hardfault.o
  .debug_ranges  0x000001a8      0x1c8 ./drivers/fsl_clock.o
  .debug_ranges  0x00000370      0x108 ./drivers/fsl_lpsci.o
@@ -1876,12 +1876,12 @@ LOAD linker stubs
  .debug_macro   0x00007fc8       0x10 ./utilities/fsl_debug_console.o
  .debug_macro   0x00007fd8       0x10 ./utilities/fsl_debug_console.o
  .debug_macro   0x00007fe8       0x29 ./startup/startup_mkl25z4.o
- .debug_macro   0x00008011      0x131 ./source/GPIO_aula.o
- .debug_macro   0x00008142       0xd8 ./source/GPIO_aula.o
- .debug_macro   0x0000821a       0x16 ./source/GPIO_aula.o
- .debug_macro   0x00008230       0x10 ./source/GPIO_aula.o
- .debug_macro   0x00008240      0x15f ./source/GPIO_aula.o
- .debug_macro   0x0000839f       0xac ./source/GPIO_aula.o
+ .debug_macro   0x00008011      0x131 ./source/main.o
+ .debug_macro   0x00008142       0xd8 ./source/main.o
+ .debug_macro   0x0000821a       0x16 ./source/main.o
+ .debug_macro   0x00008230       0x10 ./source/main.o
+ .debug_macro   0x00008240      0x15f ./source/main.o
+ .debug_macro   0x0000839f       0xac ./source/main.o
  .debug_macro   0x0000844b       0x2f ./source/mtb.o
  .debug_macro   0x0000847a       0x82 ./source/mtb.o
  .debug_macro   0x000084fc       0x10 ./source/mtb.o
@@ -1897,54 +1897,54 @@ LOAD linker stubs
  .debug_macro   0x00008c04       0x10 ./board/pin_mux.o
  .debug_macro   0x00008c14       0x94 ./CMSIS/system_MKL25Z4.o
 
-.debug_line     0x00000000     0x47cc
+.debug_line     0x00000000     0x47c7
  .debug_line    0x00000000      0x48c ./utilities/fsl_debug_console.o
  .debug_line    0x0000048c      0x1e7 ./startup/startup_mkl25z4.o
- .debug_line    0x00000673      0x3aa ./source/GPIO_aula.o
- .debug_line    0x00000a1d       0xd1 ./source/mtb.o
- .debug_line    0x00000aee       0x5a ./source/semihost_hardfault.o
- .debug_line    0x00000b48     0x12fa ./drivers/fsl_clock.o
- .debug_line    0x00001e42      0xd73 ./drivers/fsl_lpsci.o
- .debug_line    0x00002bb5      0xd62 ./drivers/fsl_uart.o
- .debug_line    0x00003917      0x3b1 ./board/board.o
- .debug_line    0x00003cc8      0x3f5 ./board/clock_config.o
- .debug_line    0x000040bd       0x5c ./board/peripherals.o
- .debug_line    0x00004119      0x380 ./board/pin_mux.o
- .debug_line    0x00004499      0x333 ./CMSIS/system_MKL25Z4.o
+ .debug_line    0x00000673      0x3a5 ./source/main.o
+ .debug_line    0x00000a18       0xd1 ./source/mtb.o
+ .debug_line    0x00000ae9       0x5a ./source/semihost_hardfault.o
+ .debug_line    0x00000b43     0x12fa ./drivers/fsl_clock.o
+ .debug_line    0x00001e3d      0xd73 ./drivers/fsl_lpsci.o
+ .debug_line    0x00002bb0      0xd62 ./drivers/fsl_uart.o
+ .debug_line    0x00003912      0x3b1 ./board/board.o
+ .debug_line    0x00003cc3      0x3f5 ./board/clock_config.o
+ .debug_line    0x000040b8       0x5c ./board/peripherals.o
+ .debug_line    0x00004114      0x380 ./board/pin_mux.o
+ .debug_line    0x00004494      0x333 ./CMSIS/system_MKL25Z4.o
 
-.debug_str      0x00000000    0x360b4
+.debug_str      0x00000000    0x360af
  .debug_str     0x00000000    0x315b6 ./utilities/fsl_debug_console.o
                               0x31803 (size before relaxing)
  .debug_str     0x000315b6      0x3d0 ./startup/startup_mkl25z4.o
                                0x31c7 (size before relaxing)
- .debug_str     0x00031986     0x1327 ./source/GPIO_aula.o
-                              0x31ff5 (size before relaxing)
- .debug_str     0x00032cad      0x532 ./source/mtb.o
+ .debug_str     0x00031986     0x1322 ./source/main.o
+                              0x31ff0 (size before relaxing)
+ .debug_str     0x00032ca8      0x532 ./source/mtb.o
                                0x32d3 (size before relaxing)
- .debug_str     0x000331df       0x1f ./source/semihost_hardfault.o
+ .debug_str     0x000331da       0x1f ./source/semihost_hardfault.o
                                0x2dc0 (size before relaxing)
- .debug_str     0x000331fe     0x15b6 ./drivers/fsl_clock.o
+ .debug_str     0x000331f9     0x15b6 ./drivers/fsl_clock.o
                               0x322ce (size before relaxing)
- .debug_str     0x000347b4      0xb5c ./drivers/fsl_lpsci.o
+ .debug_str     0x000347af      0xb5c ./drivers/fsl_lpsci.o
                               0x318d6 (size before relaxing)
- .debug_str     0x00035310      0x832 ./drivers/fsl_uart.o
+ .debug_str     0x0003530b      0x832 ./drivers/fsl_uart.o
                               0x318f9 (size before relaxing)
- .debug_str     0x00035b42       0x4c ./board/board.o
+ .debug_str     0x00035b3d       0x4c ./board/board.o
                               0x31872 (size before relaxing)
- .debug_str     0x00035b8e      0x300 ./board/clock_config.o
+ .debug_str     0x00035b89      0x300 ./board/clock_config.o
                               0x311fc (size before relaxing)
- .debug_str     0x00035e8e       0x31 ./board/peripherals.o
+ .debug_str     0x00035e89       0x31 ./board/peripherals.o
                                0x2dd1 (size before relaxing)
- .debug_str     0x00035ebf      0x1a6 ./board/pin_mux.o
+ .debug_str     0x00035eba      0x1a6 ./board/pin_mux.o
                               0x30d7d (size before relaxing)
- .debug_str     0x00036065       0x4f ./CMSIS/system_MKL25Z4.o
+ .debug_str     0x00036060       0x4f ./CMSIS/system_MKL25Z4.o
                               0x2fc38 (size before relaxing)
 
 .comment        0x00000000       0x4c
  .comment       0x00000000       0x4c ./utilities/fsl_debug_console.o
                                  0x4d (size before relaxing)
  .comment       0x0000004c       0x4d ./startup/startup_mkl25z4.o
- .comment       0x0000004c       0x4d ./source/GPIO_aula.o
+ .comment       0x0000004c       0x4d ./source/main.o
  .comment       0x0000004c       0x4d ./source/mtb.o
  .comment       0x0000004c       0x4d ./source/semihost_hardfault.o
  .comment       0x0000004c       0x4d ./drivers/fsl_clock.o
@@ -1986,7 +1986,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000002c       0x2c ./startup/startup_mkl25z4.o
  .ARM.attributes
-                0x00000058       0x2c ./source/GPIO_aula.o
+                0x00000058       0x2c ./source/main.o
  .ARM.attributes
                 0x00000084       0x32 ./source/mtb.o
  .ARM.attributes
@@ -2079,7 +2079,7 @@ LOAD linker stubs
 .debug_frame    0x00000000     0x1674
  .debug_frame   0x00000000       0xcc ./utilities/fsl_debug_console.o
  .debug_frame   0x000000cc      0x3b0 ./startup/startup_mkl25z4.o
- .debug_frame   0x0000047c       0x30 ./source/GPIO_aula.o
+ .debug_frame   0x0000047c       0x30 ./source/main.o
  .debug_frame   0x000004ac       0x20 ./source/semihost_hardfault.o
  .debug_frame   0x000004cc      0x6e0 ./drivers/fsl_clock.o
  .debug_frame   0x00000bac      0x414 ./drivers/fsl_lpsci.o

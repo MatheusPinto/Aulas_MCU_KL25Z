@@ -38,6 +38,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\mathe\Área de Trabalho\Motor_shield_aula.zip"/>
 			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\Motor_shield_aula.zip"/>
 			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\TPM_ultrassonic_aula.zip"/>
 			<item value="C:\Users\mathe\OneDrive\Área de Trabalho\ADC_projetos_aula.zip"/>
@@ -54,5 +55,10 @@
 	<section name="ZipFileImportWizard">
 	</section>
 	<section name="NewWizardAction">
+	</section>
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".axf"/>
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="net.sourceforge.ehep.editors.HexEditor"/>
 	</section>
 </section>

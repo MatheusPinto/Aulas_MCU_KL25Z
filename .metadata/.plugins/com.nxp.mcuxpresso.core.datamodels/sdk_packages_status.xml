@@ -11,4 +11,5 @@
 <package hash="1623779087454" path="C:\Users\mathe\Documentos\Workspaces\MCUXpresso\Aulas_MCU\Robot_full_ctrl2\part-support" schema="manifest-schema/sdk_manifest_v3.8.xsd"/>
 <package hash="1618513663960" path="C:\Users\mathe\mcuxpresso\02\SDKPackages\SDK_2.7.0_TWR-K22F120M.zip" schema="manifest-schema/sdk_manifest_v3.7.xsd"/>
 <package hash="1608241453502" path="C:\Users\mathe\mcuxpresso\02\SDKPackages\SDK_2.2.0_FRDM-KL25Z.zip" schema="manifest-schema/sdk_manifest_v3.3.xsd"/>
+<package hash="1650392982287" path="C:\Users\mathe\mcuxpresso\02\SDKPackages\SDK_2_2_0_FRDM-KL25Z.zip" schema="manifest-schema/sdk_manifest_v3.3.xsd"/>
 </sdk-packages>

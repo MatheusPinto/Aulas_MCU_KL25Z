@@ -17,8 +17,10 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Bluetooth_aula\ JLink\ Debug/ac
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_SDK_aula\ JLink\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_SDK_aula\ JLink\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_aula\ JLink\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_aula\ JLink\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IRQ_externo\ JLink\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:IRQ_externo\ JLink\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LCD_16-2_aula\ JLink\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MonsterMotor_aula\ JLink\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:MonsterMotor_aula\ JLink\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:PWM_Servo_aula_v2\ JLink\ Debug/activeLaunchMode=debug
@@ -36,6 +38,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lalala\ JLink\ Debug/activeLaun
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lalala\ JLink\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lcd_keypad_kl25z\ JLink\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lcd_keypad_kl25z\ JLink\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:primeiro_teste\ JLink\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:primeiro_teste\ JLink\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:projeto\ 2\ temporizador\ JLink\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:tarefa2_temporizador\ JLink\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:tarefa2_temporizador\ JLink\ Debug/activeLaunchTarget=null\:---

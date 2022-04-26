@@ -42,7 +42,7 @@
 /* TODO: insert other include files here. */
 #include "fsl_gpio.h"
 #include "fsl_port.h"
-#include "delay.h"
+#include "libraries/delay/delay.h"
 
 /* TODO: insert other definitions and declarations here. */
 const gpio_pin_config_t ptd2_config = {kGPIO_DigitalOutput, 0};

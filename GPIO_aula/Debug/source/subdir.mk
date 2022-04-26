@@ -4,17 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../source/GPIO_aula.c \
+../source/main.c \
 ../source/mtb.c \
 ../source/semihost_hardfault.c 
 
 OBJS += \
-./source/GPIO_aula.o \
+./source/main.o \
 ./source/mtb.o \
 ./source/semihost_hardfault.o 
 
 C_DEPS += \
-./source/GPIO_aula.d \
+./source/main.d \
 ./source/mtb.d \
 ./source/semihost_hardfault.d 
 
